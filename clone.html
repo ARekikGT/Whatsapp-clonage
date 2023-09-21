@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The wWatsapp Website</title>
+    <link rel="stylesheet" href="F:\clonage\clone.css">
+</head>
+<body>
+    <div class="app">
+        <div class="screen join-screen ">
+            <div class="form">
+
+                <img class="image" src="F:\clonage\WhatsApp_logo-color-vertical.svg (1).png" alt="whatsapp">
+                <h2>Join The Chatroom</h2>
+                <div class="form-input">
+                    <label>Username</label>
+                    <input type="text" id="Username">
+                </div>
+                <div class="form-input">
+                    <button id="join-user">Join</button>
+                </div>
+            </div>   
+        </div>
+        <div class="screen chat-screen active">
+            <div class="header">
+                <div class="logo">The Chatroom</div>
+                <button id="exit-chat">Exit</button>
+            </div>
+            <div class="messages"> 
+                <div class="message my-message">
+                    <div>
+                        <div class="name">YOU</div>
+                        <div class="text">HI!</div>
+                    </div>
+                </div>
+                <div class="update">
+                    abc joined the the conversation
+                </div>
+                <div class="message other-message">
+                    <div>
+                        <div class="name">abc</div>
+                        <div class="text">HI!</div>
+                    </div>
+                </div> 
+            </div>
+            <div class="typebox">
+                <input type="text" id="message-input">
+                <button id="send-message">Send</button>
+            </div>
+        </div>
+    </div>
+    <script type ="text/javascript" src="server.js"></script>
+    <script type ="text/javascript" src="code.js"></script>
+</body>
+</html>
